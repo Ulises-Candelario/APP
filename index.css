@@ -1,0 +1,85 @@
+
+        html, body{
+            display:flex;
+            height: 100%;
+            flex-direction: column;
+            margin: 0px;
+
+        }
+        header{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: rgb(0, 0, 0);
+            background-color: rgb(4, 103, 210) ;
+            height: 5%;
+            padding: 5px;
+        }
+        #container{
+            display: flex;
+            background-color: rgb(198, 198, 198);
+            color: rgb(0, 0, 0);
+            height: 60%;
+            padding-left: 30px;
+        }
+        .pie_pagina{
+            background-color: rgb(22, 23, 112);
+            color: rgb(255, 255, 255);
+            display: flex;
+            height: 40%;
+        }
+        .lateral{
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+            width: 30%;
+            background-color: rgb(78, 0, 166);
+            color: aliceblue;
+        }
+
+        ul li{
+         display: inline;
+        }
+
+        ul li:hover{
+            color: aqua;
+
+        }
+
+        ol li{
+         list-style: none;
+         display: flex;
+        }
+
+        ol li:hover{
+         color: aqua;
+        }
+
+
+        .parrafo{
+         text-align: justify;
+         border: 5px solid;
+         height: 25%;
+         border-color: aquamarine;
+         border-radius: 10px;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+        .principal{
+         
+         padding: 0px 30px;
+         width: 70%;
+        }
+
+        #titulo{
+            background-color: rgb(87, 99, 95);
+            color: rgb(250, 250, 250);
+        }
+        .conborde{
+            border-color:rgb(62, 16, 105);
+            border: 10px solid;
+        }
+        h1{
+        background-color: rgb(38, 46, 46);
+        }
